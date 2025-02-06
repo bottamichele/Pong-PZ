@@ -1,0 +1,18 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "pong_pz"
+version = "1.0"
+dependencies = [
+  "Box2D",
+  "numpy",
+  "pettingzoo",
+  "gymnasium",
+  "pygame"
+]
+license = "MIT"
+
+[project.urls]
+Repository = "https://github.com/bottamichele/Pong-PZ"
