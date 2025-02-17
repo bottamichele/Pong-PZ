@@ -39,7 +39,7 @@ for episode in range(10):
         observations, rewards, terminations, truncations, infos = env.step(actions)
 
         if not episode_ended:
-            episode_ended = terminations[env.agents[0]] or truncations[env.agents[0]]
+            episode_ended = terminations[env.agents[0]] or truncations[env.agents[1]]
 
 env.close()
 ```
