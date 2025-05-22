@@ -16,7 +16,7 @@ This library needs to be installed locally to be used. You need to do the follow
 
 ## Usage
 Before you run any Pong enviroments, you need to import `pong_pz` and then to create
-a new enviroment using `pong_pz.pong_v0.env()`.
+a new enviroment by using `pong_pz.pong_v0.env()`.
 
 This library contains its wrappers as well and which can be imported from `pong_pz.wrappers`.
 
